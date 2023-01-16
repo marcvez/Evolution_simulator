@@ -3,7 +3,7 @@
 library(tidyverse)
 
 # Where the plots are going to be stored
-setwd("D:/Documentos Marc/MASTER/Tonteries R/Evolution simulator")
+setwd("C:/folder")
 
 evolution <- function(ind = 10, steps = 50, generations = 10, mut_rate = 0.1, reproduction = 0.5){
   
